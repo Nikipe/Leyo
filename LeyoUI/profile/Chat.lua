@@ -3,7 +3,7 @@ local LUI = E:GetModule("Leyo UI");
 local classColor = E:ClassColor(E.myclass, true);
 
 function LUI:SetupChat()
-    E.db["chat"]["chatHistory"] = false
+	E.db["chat"]["chatHistory"] = false
 	E.db["chat"]["editBoxPosition"] = "ABOVE_CHAT"
 	E.db["chat"]["emotionIcons"] = false
 	E.db["chat"]["font"] = "Montserrat"

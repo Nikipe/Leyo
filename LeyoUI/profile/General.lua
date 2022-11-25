@@ -3,7 +3,7 @@ local LUI = E:GetModule("Leyo UI");
 local classColor = E:ClassColor(E.myclass, true);
 
 function LUI:SetupGeneral()
-    E.db["general"]["afk"] = true
+	E.db["general"]["afk"] = true
 	E.db["general"]["altPowerBar"]["font"] = "Montserrat"
 	E.db["general"]["altPowerBar"]["fontSize"] = 14
 	E.db["general"]["altPowerBar"]["statusBar"] = "Melli"

@@ -3,7 +3,7 @@ local LUI = E:GetModule("Leyo UI");
 local classColor = E:ClassColor(E.myclass, true);
 
 function LUI:SetupDatatexts()
-    E.db["datatexts"]["font"] = "Montserrat"
+	E.db["datatexts"]["font"] = "Montserrat"
 	E.db["datatexts"]["fontOutline"] = "OUTLINE"
 	E.db["datatexts"]["fontSize"] = 14
 	E.db["datatexts"]["panels"]["LeftChatDataPanel"]["2"] = "System"

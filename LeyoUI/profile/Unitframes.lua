@@ -4,7 +4,7 @@ local classColor = E:ClassColor(E.myclass, true);
 
 
 function LUI:SetupUnitfames()
-    E.db["unitframe"]["colors"]["colorhealthbyvalue"] = false
+	E.db["unitframe"]["colors"]["colorhealthbyvalue"] = false
 	E.db["unitframe"]["colors"]["healthclass"] = true
 	E.db["unitframe"]["font"] = "Montserrat"
 	E.db["unitframe"]["fontOutline"] = "THICKOUTLINE"

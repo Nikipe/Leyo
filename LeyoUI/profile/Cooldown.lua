@@ -3,7 +3,7 @@ local LUI = E:GetModule("Leyo UI");
 local classColor = E:ClassColor(E.myclass, true);
 
 function LUI:SetupCooldown()
-    E.db["cooldown"]["checkSeconds"] = true
+	E.db["cooldown"]["checkSeconds"] = true
 	E.db["cooldown"]["fonts"]["enable"] = true
 	E.db["cooldown"]["fonts"]["font"] = "Montserrat"
 	E.db["cooldown"]["secondsColor"]["b"] = 1
