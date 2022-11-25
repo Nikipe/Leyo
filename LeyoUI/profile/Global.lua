@@ -4,5 +4,5 @@ local classColor = E:ClassColor(E.myclass, true);
 
 function LUI:SetupGlobalProfile()
     E.global["datatexts"]["settings"]["Gold"]["goldCoins"] = false
-	E.global["datatexts"]["settings"]["Gold"]["goldFormat"] = "SHORTINT"
+    E.global["datatexts"]["settings"]["Gold"]["goldFormat"] = "SHORTINT"
 end
