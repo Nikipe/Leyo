@@ -1,0 +1,45 @@
+local E, L, V, P, G = unpack(ElvUI);
+local LUI = E:GetModule("Leyo UI");
+local classColor = E:ClassColor(E.myclass, true);
+
+function LUI:SetupDatabars()
+    E.db["databars"]["azerite"]["enable"] = false
+    E.db["databars"]["azerite"]["font"] = "Montserrat"
+    E.db["databars"]["azerite"]["fontOutline"] = "OUTLINE"
+    E.db["databars"]["azerite"]["fontSize"] = 16
+    E.db["databars"]["azerite"]["height"] = 5
+    E.db["databars"]["azerite"]["textFormat"] = "PERCENT"
+    E.db["databars"]["azerite"]["width"] = 340
+    E.db["databars"]["colors"]["experience"]["a"] = 1
+    E.db["databars"]["colors"]["factionColors"][9]["b"] = 0.72941176470588
+    E.db["databars"]["colors"]["factionColors"][9]["g"] = 0.54901960784314
+    E.db["databars"]["colors"]["factionColors"][9]["r"] = 0.95686274509804
+    E.db["databars"]["colors"]["honor"]["b"] = 0
+    E.db["databars"]["colors"]["honor"]["g"] = 0
+    E.db["databars"]["colors"]["honor"]["r"] = 1
+    E.db["databars"]["colors"]["useCustomFactionColors"] = true
+    E.db["databars"]["customTexture"] = true
+    E.db["databars"]["experience"]["enable"] = true
+    E.db["databars"]["experience"]["font"] = "Montserrat"
+    E.db["databars"]["experience"]["fontOutline"] = "OUTLINE"
+    E.db["databars"]["experience"]["height"] = 15
+    E.db["databars"]["experience"]["showLevel"] = true
+    E.db["databars"]["experience"]["textFormat"] = "PERCENT"
+    E.db["databars"]["experience"]["width"] = 500
+    E.db["databars"]["honor"]["font"] = "Montserrat"
+    E.db["databars"]["honor"]["fontOutline"] = "OUTLINE"
+    E.db["databars"]["honor"]["height"] = 177
+    E.db["databars"]["honor"]["orientation"] = "VERTICAL"
+    E.db["databars"]["honor"]["width"] = 15
+    E.db["databars"]["reputation"]["enable"] = true
+    E.db["databars"]["reputation"]["font"] = "Montserrat"
+    E.db["databars"]["reputation"]["fontOutline"] = "OUTLINE"
+    E.db["databars"]["reputation"]["fontSize"] = 16
+    E.db["databars"]["reputation"]["height"] = 177
+    E.db["databars"]["reputation"]["orientation"] = "VERTICAL"
+    E.db["databars"]["reputation"]["rewardPosition"] = "TOP"
+    E.db["databars"]["reputation"]["width"] = 15
+    E.db["databars"]["statusbar"] = "Melli"
+    E.db["databars"]["threat"]["enable"] = false
+    E.db["databars"]["transparent"] = false
+end

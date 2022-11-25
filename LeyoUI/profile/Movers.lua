@@ -1,0 +1,41 @@
+local E, L, V, P, G = unpack(ElvUI);
+local LUI = E:GetModule("Leyo UI");
+local classColor = E:ClassColor(E.myclass, true);
+
+function LUI:SetupMovers()
+	if not E.db.movers then E.db.movers = {} end
+	E.db["movers"]["BNETMover"] = "TOP,UIParent,TOP,0,-4"
+	E.db["movers"]["BelowMinimapContainerMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-322,-199"
+	E.db["movers"]["BossButton"] = "BOTTOM,UIParent,BOTTOM,316,221"
+	E.db["movers"]["BuffsMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-292,-4"
+	E.db["movers"]["DebuffsMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-292,-150"
+	E.db["movers"]["DurabilityFrameMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-254,-202"
+	E.db["movers"]["ElvAB_1"] = "BOTTOM,UIParent,BOTTOM,0,4"
+	E.db["movers"]["ElvAB_2"] = "BOTTOM,ElvUIParent,BOTTOM,0,33"
+	E.db["movers"]["ElvAB_3"] = "BOTTOM,ElvUIParent,BOTTOM,0,61"
+	E.db["movers"]["ElvAB_4"] = "BOTTOM,ElvUIParent,BOTTOM,228,4"
+	E.db["movers"]["ElvAB_5"] = "BOTTOM,ElvUIParent,BOTTOM,-228,4"
+	E.db["movers"]["ElvAB_6"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-1,197"
+	E.db["movers"]["ElvUF_PartyMover"] = "TOPLEFT,UIParent,TOPLEFT,358,-401"
+	E.db["movers"]["ElvUF_PlayerMover"] = "BOTTOM,UIParent,BOTTOM,-308,340"
+	E.db["movers"]["ElvUF_Raid40Mover"] = "BOTTOMLEFT,ElvUIParent,BOTTOMLEFT,4,258"
+	E.db["movers"]["ElvUF_RaidMover"] = "BOTTOMLEFT,UIParent,BOTTOMLEFT,4,248"
+	E.db["movers"]["ElvUF_TargetCastbarMover"] = "BOTTOM,ElvUIParent,BOTTOM,308,322"
+	E.db["movers"]["ElvUF_TargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,308,340"
+	E.db["movers"]["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,310,285"
+	E.db["movers"]["ElvUIBagMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,293"
+	E.db["movers"]["ExperienceBarMover"] = "TOP,UIParent,TOP,0,-15"
+	E.db["movers"]["HonorBarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-192,21"
+	E.db["movers"]["MawBuffsBelowMinimapMover"] = "TOP,UIParent,TOP,234,-85"
+	E.db["movers"]["MicrobarMover"] = "TOP,UIParent,TOP,235,-4"
+	E.db["movers"]["MinimapMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-1,0"
+	E.db["movers"]["ObjectiveFrameMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-48,-4"
+	E.db["movers"]["ReputationBarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-177,21"
+	E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-206,21"
+	E.db["movers"]["SquareMinimapButtonBarMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,296"
+	E.db["movers"]["TargetPowerBarMover"] = "BOTTOM,UIParent,BOTTOM,310,263"
+	E.db["movers"]["TooltipMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-493,506"
+	E.db["movers"]["VehicleSeatMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-319,-231"
+	E.db["movers"]["WTMinimapButtonBarAnchor"] = "TOPLEFT,UIParent,TOPLEFT,4,-4"
+	E.db["movers"]["ZoneAbility"] = "TOP,UIParent,TOP,77,-515"
+end

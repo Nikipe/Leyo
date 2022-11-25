@@ -1,0 +1,11 @@
+## Interface: 100002
+## Author: Nikipe
+## Version: 1.0.0
+## Title: Leyo UI
+## Notes: Leyo UI (ElvUI Edit)
+## RequiredDeps: ElvUI
+## DefaultState: enabled
+
+core.lua
+profile/profile.xml
+addons/addons.xml
