@@ -33,7 +33,20 @@ function LUI:SetupWindtools()
     E.private["WT"]["maps"]["minimapButtons"]["garrison"] = true
     E.private["WT"]["maps"]["minimapButtons"]["spacing"] = 0
     E.private["WT"]["misc"]["autoScreenshot"] = true
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["border"] = "ONEPIXEL"
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["color"]["gradientColor1"]["b"] = 0.78823536634445
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["color"]["gradientColor1"]["g"] = 0.18823531270027
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["color"]["gradientColor1"]["r"] = 0.63921570777893
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["color"]["normalColor"]["a"] = 0.681
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["color"]["normalColor"]["b"] = 0.681
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["color"]["normalColor"]["g"] = 0.681
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["color"]["normalColor"]["r"] = 0.681
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["height"] = 24
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["offsetX"] = -7
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["offsetY"] = 0
     E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["texture"] = "Melli"
+    E.private["WT"]["quest"]["objectiveTracker"]["cosmeticBar"]["width"] = 260
+    E.private["WT"]["quest"]["objectiveTracker"]["header"]["size"] = 15
     E.private["WT"]["skins"]["removeParchment"] = false
     E.private["WT"]["skins"]["shadow"] = false
 end
