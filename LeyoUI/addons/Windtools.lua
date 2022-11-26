@@ -20,6 +20,7 @@ function LUI:SetupWindtools()
     E.db["WT"]["maps"]["rectangleMinimap"]["heightPercentage"] = 1
     E.db["WT"]["misc"]["gameBar"]["enable"] = false
     E.db["WT"]["quest"]["paragonReputation"]["text"] = "PARAGONPLUS"
+    E.db["WT"]["quest"]["turnIn"]["enable"] = false
     E.db["WT"]["social"]["chatBar"]["enable"] = false
     E.db["WT"]["social"]["friendList"]["textures"]["factionIcon"] = true
     E.db["WT"]["social"]["friendList"]["useNoteAsName"] = true
