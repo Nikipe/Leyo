@@ -157,6 +157,18 @@ local function InsertOptions()
 				desc = "Run the installation process.",
 				func = function() E:GetModule("PluginInstaller"):Queue(InstallerData); E:ToggleOptions(); end,
 			},
+			header3 = {
+				order = 8,
+				type = "header",
+				name = "AddOn profiles"
+			},
+			warpDeplete = {
+				order = 9,
+				type = "execute",
+				name = "WarpDeplete",
+				desc = "Setup WarpDeplete Profile",
+				func = function() LUI:SetupWarpDeplete() end,
+			},
 		},
 	}
 end
