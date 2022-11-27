@@ -16,7 +16,7 @@ function LUI:SetupWindtools()
     E.db["WT"]["combat"]["raidMarkers"]["enable"] = false
     E.db["WT"]["item"]["extraItemsBar"]["bar2"]["anchor"] = "TOPRIGHT"
     E.db["WT"]["item"]["extraItemsBar"]["enable"] = false
-    E.db["WT"]["item"]["inspect"]["levelText"]["name"] = "Gotham Narrow Ultra"
+    E.db["WT"]["item"]["inspect"]["levelText"]["name"] = "Montserrat"
     E.db["WT"]["maps"]["rectangleMinimap"]["heightPercentage"] = 1
     E.db["WT"]["misc"]["gameBar"]["enable"] = false
     E.db["WT"]["quest"]["paragonReputation"]["text"] = "PARAGONPLUS"
