@@ -25,7 +25,7 @@ function LUI:SetupMovers()
 	E.db["movers"]["ElvUF_TargetTargetMover"] = "BOTTOM,ElvUIParent,BOTTOM,310,285"
 	E.db["movers"]["ElvUIBagMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,293"
 	E.db["movers"]["ExperienceBarMover"] = "TOP,UIParent,TOP,0,-15"
-	E.db["movers"]["HonorBarMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-192,21"
+	E.db["movers"]["HonorBarMover"] = "BOTTOM,UIParent,BOTTOM,0,90"
 	E.db["movers"]["MawBuffsBelowMinimapMover"] = "TOP,UIParent,TOP,234,-85"
 	E.db["movers"]["MicrobarMover"] = "TOP,UIParent,TOP,235,-4"
 	E.db["movers"]["MinimapMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-1,0"
