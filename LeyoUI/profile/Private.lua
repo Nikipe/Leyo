@@ -3,10 +3,13 @@ local LUI = E:GetModule("Leyo UI");
 local classColor = E:ClassColor(E.myclass, true);
 
 function LUI:SetupPrivateProfile()
+	E.private["auras"]["disableBlizzard"] = false
+	E.private["auras"]["enable"] = false
 	E.private["bags"]["enable"] = true
 	E.private["general"]["chatBubbleFont"] = "Montserrat"
 	E.private["general"]["dmgfont"] = "Montserrat"
 	E.private["general"]["glossTex"] = "Melli"
+	E.private["general"]["minimap"]["enable"] = false
 	E.private["general"]["namefont"] = "Montserrat"
 	E.private["general"]["nameplateFont"] = "Montserrat"
 	E.private["general"]["nameplateLargeFont"] = "Montserrat"
