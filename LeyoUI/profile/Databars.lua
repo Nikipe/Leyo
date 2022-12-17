@@ -35,11 +35,12 @@ function LUI:SetupDatabars()
     E.db["databars"]["reputation"]["enable"] = true
     E.db["databars"]["reputation"]["font"] = "Montserrat"
     E.db["databars"]["reputation"]["fontOutline"] = "OUTLINE"
-    E.db["databars"]["reputation"]["fontSize"] = 16
-    E.db["databars"]["reputation"]["height"] = 177
-    E.db["databars"]["reputation"]["orientation"] = "VERTICAL"
+    E.db["databars"]["reputation"]["fontSize"] = 13
+    E.db["databars"]["reputation"]["height"] = 15
+    E.db["databars"]["reputation"]["orientation"] = "HORIZONTAL"
     E.db["databars"]["reputation"]["rewardPosition"] = "TOP"
-    E.db["databars"]["reputation"]["width"] = 15
+    E.db["databars"]["reputation"]["textFormat"] = "CURREM"
+    E.db["databars"]["reputation"]["width"] = 570
     E.db["databars"]["statusbar"] = "Melli"
     E.db["databars"]["threat"]["enable"] = false
     E.db["databars"]["transparent"] = false
