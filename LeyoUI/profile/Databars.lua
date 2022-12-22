@@ -31,6 +31,7 @@ function LUI:SetupDatabars()
     E.db["databars"]["honor"]["height"] = 15
     E.db["databars"]["honor"]["hideOutsidePvP"] = true
     E.db["databars"]["honor"]["orientation"] = "HORIZONTAL"
+    E.db["databars"]["experience"]["textFormat"] = "PERCENT"
     E.db["databars"]["honor"]["width"] = 570
     E.db["databars"]["reputation"]["enable"] = true
     E.db["databars"]["reputation"]["font"] = "Montserrat"
