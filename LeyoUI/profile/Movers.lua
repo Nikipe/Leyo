@@ -30,6 +30,7 @@ function LUI:SetupMovers()
 	E.db["movers"]["MicrobarMover"] = "TOP,UIParent,TOP,235,-4"
 	E.db["movers"]["MinimapMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-1,0"
 	E.db["movers"]["ObjectiveFrameMover"] = "TOPRIGHT,UIParent,TOPRIGHT,-48,-4"
+	E.db["movers"]["PowerBarContainerMover"] = "BOTTOM,UIParent,BOTTOM,0,135"
 	E.db["movers"]["ReputationBarMover"] = "BOTTOM,UIParent,BOTTOM,0,90"
 	E.db["movers"]["RightChatMover"] = "BOTTOMRIGHT,ElvUIParent,BOTTOMRIGHT,-206,21"
 	E.db["movers"]["SquareMinimapButtonBarMover"] = "BOTTOMRIGHT,UIParent,BOTTOMRIGHT,-4,296"
